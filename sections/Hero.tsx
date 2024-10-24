@@ -11,7 +11,7 @@ export interface CTA {
 export interface Props {
   /**
    * @format rich-text
-   * @default Click here to tweak this text however you want.
+   * @default SaveInBlogs.
    */
   title?: string;
   description?: string;
@@ -26,8 +26,8 @@ const PLACEMENT = {
 };
 
 export default function HeroFlats({
-  title = "Click here to tweak this text however you want.",
-  description = "This text is entirely editable, tailor it freely.",
+  title = "Saveincloud",
+  description = "Acompanhe todas as novidades da SaveInCloud",
   image,
   placement = "left",
   cta,
