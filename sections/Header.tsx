@@ -55,9 +55,11 @@ export default function Haader({
   navigation = {
     links: [
       { label: "Home", url: "/" },
-      { label: "About us", url: "/" },
-      { label: "Princing", url: "/" },
-      { label: "Contact", url: "/" },
+      { label: "Soluções Cloud", url: "/" },
+      { label: "Preço", url: "/" },
+      { label: "DataCenters", url: "/" },
+      { label: "Blog", url: "/" },
+      { label: "Contato", url: "/" },
     ],
     buttons: [
       { id: "change-me-1", href: "/", text: "Change me", outline: false },
