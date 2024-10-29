@@ -26,7 +26,7 @@ export interface Props {
 }
 
 const DEFAULT_IMAGE =
-  "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4763/682eb374-def2-4e85-a45d-b3a7ff8a31a9";
+  "https://saveincloud.com/wp-content/uploads/2024/10/pgadmin.png";
 
 export default function MainPost({
   post = {

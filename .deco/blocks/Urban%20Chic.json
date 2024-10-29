@@ -3,7 +3,7 @@
   "colorScheme": "any",
   "buttonStyle": {
     "--border-btn": "1px",
-    "--rounded-btn": "0",
+    "--rounded-btn": "0.4rem",
     "--btn-focus-scale": "0.95",
     "--animation-btn": "0.25s"
   },
@@ -16,17 +16,29 @@
   },
   "mainColors": {
     "base-100": "#F8F9FD",
-    "primary": "#3141AC",
+    "primary": "#007aff",
     "secondary": "#BADFED",
     "tertiary": "#DECD8F",
     "neutral": "#FBF5F1",
     "success": "#008060",
     "warning": "#ffc453",
     "error": "#d82c0d",
-    "info": "#2e72d2"
+    "info": "#FBF5F1"
   },
   "font": {
     "__resolveType": "website/loaders/fonts/googleFonts.ts",
-    "fonts": [{ "variations": [], "family": "Poiret One" }]
+    "fonts": [
+      {
+        "variations": [],
+        "family": "Roboto"
+      }
+    ]
+  },
+  "mode": "dark",
+  "complementaryColors": {
+    "base-200": "#000000",
+    "primary-content": "#FBF5F1",
+    "base-300": "#000000",
+    "base-content": "#000000"
   }
 }

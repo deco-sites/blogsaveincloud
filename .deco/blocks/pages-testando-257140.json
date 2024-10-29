@@ -1,0 +1,34 @@
+{
+  "name": "testando",
+  "path": "/example-path",
+  "sections": [
+    {
+      "__resolveType": "site/sections/Header.tsx"
+    },
+    {
+      "__resolveType": "site/sections/BlogPost.tsx",
+      "post": {
+        "__resolveType": "blog/loaders/BlogPostItem.ts",
+        "slug": {
+          "__resolveType": "website/functions/requestToParam.ts",
+          "param": "slug"
+        }
+      },
+      "page": {
+        "__resolveType": "blog/loaders/BlogPostPage.ts",
+        "slug": {
+          "__resolveType": "website/functions/requestToParam.ts",
+          "param": "slug"
+        }
+      }
+    },
+    {
+      "__resolveType": "site/sections/Footer.tsx",
+      "subscribe": {}
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

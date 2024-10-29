@@ -3,12 +3,62 @@
   "path": "/",
   "sections": [
     {
-      "__resolveType": "Header"
+      "__resolveType": "site/sections/Header.tsx",
+      "navigation": {
+        "links": [
+          {
+            "label": "Home",
+            "url": "/performance"
+          },
+          {
+            "label": "Soluçoes Cloud",
+            "url": "/culture"
+          },
+          {
+            "label": "Preço",
+            "url": "/customization"
+          },
+          {
+            "label": "DataCenter"
+          },
+          {
+            "label": "Blog"
+          },
+          {
+            "label": "Contato"
+          },
+          {
+            "label": "Es",
+            "url": "https://saveincloud.com/es/"
+          },
+          {
+            "label": "Pt",
+            "url": "https://saveincloud.com/pt/"
+          }
+        ],
+        "buttons": [
+          {
+            "id": "12",
+            "href": "https://app.paas.saveincloud.net.br/",
+            "text": "LOGIN",
+            "outline": true
+          },
+          {
+            "id": "10",
+            "href": "https://register.saveincloud.com/geral/site",
+            "text": "TESTE 14 DIAS GRÁTIS",
+            "outline": false
+          }
+        ]
+      },
+      "logo": {
+        "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/blogsaveincloud/f7d774a1-3866-4f79-8c9f-93ed8ebe8fc8/images-removebg-preview.png"
+      }
     },
     {
       "__resolveType": "site/sections/Hero.tsx",
-      "title": "<h3>Blog SaveInCloud</h3>",
-      "description": "This text is entirely editable, tailor it freely."
+      "title": "<p>SaveInBlog</p>",
+      "description": "Acompanhe todas as novidades da SaveInCloud"
     },
     {
       "__resolveType": "site/sections/MainPost.tsx",
